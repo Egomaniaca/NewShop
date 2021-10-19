@@ -168,7 +168,7 @@ body {
   position: absolute;
   top: 61px;
   right: 0;
-  z-index: 20;
+  
 }
 
 .menu-list-close-btn {
@@ -983,10 +983,18 @@ button:focus-visible{
 }
 
 .filter-list {
+  min-width: 360px;
+  position: absolute;
+  z-index: 100;
   display: none;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 13px 0 0 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  top: 71px;
+  left: 0px;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 .filter-list-item {
   width: 100%;
@@ -1070,6 +1078,7 @@ button:focus-visible{
 
 
 .list-tranding {
+  position: relative;
   white-space: nowrap;
   border: none;
   background-color: transparent;
@@ -1112,12 +1121,16 @@ button:focus-visible{
   display: flex;
 }
 .list-tranding-wrp {
+  z-index: 100;
+  position: absolute;
+  min-width: 147px;
   display: none;
   flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 11px 0 10px 35px;
   box-sizing: border-box;
   background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 .list-tranding-item {
   display: none;
@@ -1156,6 +1169,7 @@ button:focus-visible{
 /*========= LIST SIZE ========*/
 
 .list-size {
+  position: relative;
   width: 80px;
   border: none;
   background-color: transparent;
@@ -1201,12 +1215,16 @@ button:focus-visible{
   display: flex;
 }
 .list-size-wrp {
+  position: absolute;
+  z-index: 100;
+  min-width: 70px;
   display: none;
   flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 10px 0 10px 30px;
   box-sizing: border-box;
   background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 .list-size-item {
   display: none;
@@ -1244,6 +1262,7 @@ button:focus-visible{
 /* ============ LIST PRICE =========*/
 
 .list-price {
+  position: relative;
   width: 80px;
   border: none;
   background-color: transparent;
@@ -1289,12 +1308,17 @@ button:focus-visible{
   display: flex;
 }
 .list-price-wrp {
+  position: absolute;
+  z-index: 100;
+  min-width: 160px;
   display: none;
   flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 10px 0 10px 30px;
   box-sizing: border-box;
   background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+  
 }
 .list-price-item {
   display: none;

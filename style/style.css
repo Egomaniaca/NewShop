@@ -197,7 +197,6 @@ body {
   position: absolute;
   top: 61px;
   right: 0;
-  z-index: 20;
 }
 
 .menu-list-close-btn {
@@ -1188,10 +1187,20 @@ button:focus-visible {
 }
 
 .filter-list {
+  min-width: 360px;
+  position: absolute;
+  z-index: 100;
   display: none;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 13px 0 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  top: 71px;
+  left: 0px;
+  -webkit-box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+          box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 
 .filter-list-item {
@@ -1286,6 +1295,7 @@ button:focus-visible {
 
 /*========= LIST TRENDING ========*/
 .list-tranding {
+  position: relative;
   white-space: nowrap;
   border: none;
   background-color: transparent;
@@ -1339,16 +1349,21 @@ button:focus-visible {
 }
 
 .list-tranding-wrp {
+  z-index: 100;
+  position: absolute;
+  min-width: 147px;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 11px 0 10px 35px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #fff;
+  -webkit-box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+          box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 
 .list-tranding-item {
@@ -1387,6 +1402,7 @@ button:focus-visible {
 
 /*========= LIST SIZE ========*/
 .list-size {
+  position: relative;
   width: 80px;
   border: none;
   background-color: transparent;
@@ -1443,16 +1459,21 @@ button:focus-visible {
 }
 
 .list-size-wrp {
+  position: absolute;
+  z-index: 100;
+  min-width: 70px;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 10px 0 10px 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #fff;
+  -webkit-box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+          box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 
 .list-size-item {
@@ -1493,6 +1514,7 @@ button:focus-visible {
 
 /* ============ LIST PRICE =========*/
 .list-price {
+  position: relative;
   width: 80px;
   border: none;
   background-color: transparent;
@@ -1549,16 +1571,21 @@ button:focus-visible {
 }
 
 .list-price-wrp {
+  position: absolute;
+  z-index: 100;
+  min-width: 160px;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 10px 0 10px 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #fff;
+  -webkit-box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+          box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 
 .list-price-item {
