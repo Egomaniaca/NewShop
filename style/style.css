@@ -1651,4 +1651,68 @@ button:focus-visible {
 .pagination a:hover:not(.active) {
   color: #f16d7f;
 }
+
+/*===================== PRODUCT===============*/
+.carousel-wrp {
+  background-color: #F7F7F7;
+  min-height: 777px;
+  margin: 0 0 665px 0;
+}
+
+.carousel {
+  position: relative;
+  margin: 0 288px 0 251px;
+  background-image: url("../img/product-item.png");
+  background-color: #F7F7F7;
+  min-height: 777px;
+  background-repeat: no-repeat;
+}
+
+.benefits {
+  display: block;
+  position: absolute;
+  top: 699px;
+  left: -252px;
+  min-width: 1140px;
+  min-height: 601px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+}
+
+.benefits-title {
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+  text-transform: uppercase;
+}
+
+.benefits-title-block {
+  margin: 0 auto;
+  width: 63px;
+  height: 3px;
+  background-color: #ef5b70;
+}
+
+.benefits-subtitle {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4d4d;
+  text-transform: uppercase;
+}
+
+.benefits-txt {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.benefits-price {
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef5b70;
+}
 /*# sourceMappingURL=style.css.map */
