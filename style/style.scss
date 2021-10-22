@@ -464,7 +464,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto 128px;
 }
 .products-title {
   display: block;
@@ -1381,9 +1381,28 @@ button:focus-visible{
 /*===================== PRODUCT===============*/
 
 .carousel-wrp{
+  display: flex;
+  margin-top: 370px;
   background-color: #F7F7F7;
   min-height: 777px;
   margin: 0 0 665px 0;
+}
+
+.carousel-swiper {
+  margin-top: 370px;
+  height: 47px;
+  width: 47px;
+  background-color: #e1e1e1;
+  padding: 0 2px 0 0;
+  border: none;
+}
+
+.carousel-swiper:hover svg {
+  fill: #f16d7f;
+}
+
+.carousel-swiper:active svg {
+  fill: #fff;
 }
 
 .carousel{
