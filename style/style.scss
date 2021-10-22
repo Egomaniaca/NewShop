@@ -168,7 +168,7 @@ body {
   position: absolute;
   top: 61px;
   right: 0;
-  z-index: 20;
+  
 }
 
 .menu-list-close-btn {
@@ -464,7 +464,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto 128px;
 }
 .products-title {
   display: block;
@@ -983,10 +983,18 @@ button:focus-visible{
 }
 
 .filter-list {
+  min-width: 360px;
+  position: absolute;
+  z-index: 100;
   display: none;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 13px 0 0 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  top: 71px;
+  left: 0px;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 .filter-list-item {
   width: 100%;
@@ -1070,6 +1078,7 @@ button:focus-visible{
 
 
 .list-tranding {
+  position: relative;
   white-space: nowrap;
   border: none;
   background-color: transparent;
@@ -1112,12 +1121,16 @@ button:focus-visible{
   display: flex;
 }
 .list-tranding-wrp {
+  z-index: 100;
+  position: absolute;
+  min-width: 147px;
   display: none;
   flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 11px 0 10px 35px;
   box-sizing: border-box;
   background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 .list-tranding-item {
   display: none;
@@ -1156,6 +1169,7 @@ button:focus-visible{
 /*========= LIST SIZE ========*/
 
 .list-size {
+  position: relative;
   width: 80px;
   border: none;
   background-color: transparent;
@@ -1201,12 +1215,16 @@ button:focus-visible{
   display: flex;
 }
 .list-size-wrp {
+  position: absolute;
+  z-index: 100;
+  min-width: 70px;
   display: none;
   flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 10px 0 10px 30px;
   box-sizing: border-box;
   background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 .list-size-item {
   display: none;
@@ -1244,6 +1262,7 @@ button:focus-visible{
 /* ============ LIST PRICE =========*/
 
 .list-price {
+  position: relative;
   width: 80px;
   border: none;
   background-color: transparent;
@@ -1289,12 +1308,17 @@ button:focus-visible{
   display: flex;
 }
 .list-price-wrp {
+  position: absolute;
+  z-index: 100;
+  min-width: 160px;
   display: none;
   flex-direction: column;
   margin: 5px 0 0 0;
-  padding: 10px 10px 10px 31px;
+  padding: 10px 0 10px 30px;
   box-sizing: border-box;
   background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+  
 }
 .list-price-item {
   display: none;
@@ -1354,3 +1378,437 @@ button:focus-visible{
 .pagination a:hover:not(.active) {
   color: #f16d7f;
 }  
+/*===================== PRODUCT===============*/
+
+.carousel-wrp{
+  display: flex;
+  margin-top: 370px;
+  background-color: #F7F7F7;
+  min-height: 777px;
+  margin: 0 0 665px 0;
+}
+
+.carousel-swiper {
+  margin-top: 370px;
+  height: 47px;
+  width: 47px;
+  background-color: #e1e1e1;
+  padding: 0 2px 0 0;
+  border: none;
+}
+
+.carousel-swiper:hover svg {
+  fill: #f16d7f;
+}
+
+.carousel-swiper:active svg {
+  fill: #fff;
+}
+
+.carousel{
+  position: relative;
+  margin: 0 288px 0 251px;
+  background-image: url('../img/product-item.png');
+  background-color: #F7F7F7;
+  min-height: 777px;
+  background-repeat: no-repeat;
+}
+
+.benefits{
+  display: block;
+  position: absolute;
+  top: 699px;
+  left: -252px;
+  min-width: 1140px;
+  min-height: 601px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+}  
+
+.benefits-title{ 
+  margin: 65px 0 12px 0 ;  
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+  text-transform: uppercase;
+}
+
+.benefits-title-block{
+  margin: 0 auto;
+  width: 63px;
+  height: 3px;
+  background-color: #ef5b70;
+}
+
+.benefits-subtitle{
+  margin: 12px 0 48px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4d4d;
+  text-transform: uppercase;
+}
+
+.benefits-txt{
+  margin: 0 auto 32px auto;
+  max-width: 555px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5e5e5e;
+}
+
+.benefits-price{
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef5b70;
+}
+
+.carousel-list-wrp{
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 65px 80px 0 113px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  left: 246px;  
+  bottom: 0px;
+  width: 641px;
+  height: 244px;
+  border-top: 1px solid #eaeaea;
+}
+
+/*========color drop down===========*/
+.carousel-list-color {
+  position: relative;
+  white-space: nowrap;
+  border: none;
+  background-color: transparent;
+}
+.list-color-btn-title {
+  display: block;
+  width: 160px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #6F6E6E;
+  background-color: transparent;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+}
+.list-color-btn-title svg {
+  fill: #6F6E6E;
+  position: absolute;
+  top: 40%;
+  left: 54%;
+}
+.list-color-btn-title:hover {
+  color: #F16D7F;
+}
+.list-color-btn-title:hover svg {
+  fill: currentColor;
+}
+.list-color-btn-title:active {
+  color: black;
+}
+.list-color-btn-title:active svg {
+  fill: currentColor;
+}
+#switch-color {
+  display: none;
+}
+#switch-color:checked ~ .list-color-wrp {
+  display: flex;
+}
+.list-color-wrp {
+  z-index: 100;
+  position: absolute;
+  min-width: 147px;
+  display: none;
+  flex-direction: column;
+  margin: 5px 0 0 0;
+  padding: 11px 0 10px 35px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+}
+.list-color-item {
+  display: none;
+}
+
+.list-color-item:nth-child(1):checked ~ .list-color-item-title:nth-child(2):before,
+.list-color-item:nth-child(3):checked ~ .list-color-item-title:nth-child(4):before, 
+.list-color-item:nth-child(5):checked ~ .list-color-item-title:nth-child(6):before,
+.list-color-item:nth-child(7):checked ~ .list-color-item-title:nth-child(8):before {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.list-color-item-title {
+  display: block;
+  margin: 0 0 6px 0;
+  position: relative;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6F6E6E;
+}
+.list-color-item-title:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #EBEBEB;
+  position: absolute;
+  top: 1px;
+  left: -23px;
+}
+
+.list-choosesize-btn-title svg {
+  fill: #6F6E6E;
+  position: absolute;
+  top: 40%;
+  left: 65%;
+}
+.list-choosesize {
+  position: relative;
+  width: 160px;
+  border: none;
+  background-color: transparent;
+}
+.list-choosesize-btn-title {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  background-color: transparent;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+}
+.list-choosesize-btn-title svg {
+  fill: #6F6E6E;
+  position: absolute;
+  top: 40%;
+  left: 68%;
+}
+.list-choosesize-btn-title:hover {
+  color: #F16D7F;
+}
+.list-choosesize-btn-title:hover svg {
+  fill: currentColor;
+}
+.list-choosesize-btn-title:active {
+  color: black;
+}
+.list-choosesize-btn-title:active svg {
+  fill: currentColor;
+}
+#switch-choosesize {
+  display: none;
+}
+#switch-choosesize:checked ~ .list-choosesize-wrp {
+  display: flex;
+}
+.list-choosesize-wrp {
+  position: absolute;
+  z-index: 100;
+  min-width: 70px;
+  display: none;
+  flex-direction: column;
+  margin: 5px 0 0 0;
+  padding: 10px 0 10px 30px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+}
+.list-choosesize-item {
+  display: none;
+}
+.list-choosesize-item:nth-child(1):checked ~ .list-choosesize-item-title:nth-child(2):before,
+.list-choosesize-item:nth-child(3):checked ~ .list-choosesize-item-title:nth-child(4):before,
+.list-choosesize-item:nth-child(5):checked ~ .list-choosesize-item-title:nth-child(6):before,
+.list-choosesize-item:nth-child(7):checked ~ .list-choosesize-item-title:nth-child(8):before {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+  background-size: cover;
+  background-position: center;
+}
+.list-choosesize-item-title {
+  display: block;
+  margin: 0 0 6px 0;
+  position: relative;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6F6E6E;
+}
+.list-choosesize-item-title:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #EBEBEB;
+  position: absolute;
+  top: 1px;
+  left: -23px;
+}
+
+.list-quantity {
+  position: relative;
+  width: 160px;
+  border: none;
+  background-color: transparent;
+}
+.list-quantity-btn-title {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  background-color: transparent;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+}
+.list-quantity-btn-title svg {
+  fill: #6F6E6E;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+}
+.list-quantity-btn-title:hover {
+  color: #F16D7F;
+}
+.list-quantity-btn-title:hover svg {
+  fill: currentColor;
+}
+.list-quantity-btn-title:active {
+  color: black;
+}
+.list-quantity-btn-title:active svg {
+  fill: currentColor;
+}
+#switch-quantity {
+  display: none;
+}
+#switch-quantity:checked ~ .list-quantity-wrp {
+  display: flex;
+}
+.list-quantity-wrp {
+  position: absolute;
+  z-index: 100;
+  min-width: 160px;
+  display: none;
+  flex-direction: column;
+  margin: 5px 0 0 0;
+  padding: 10px 0 10px 30px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
+  
+}
+.list-quantity-item {
+  display: none;
+}
+.list-quantity-item:nth-child(1):checked ~ .list-quantity-item-title:nth-child(2):before,
+.list-quantity-item:nth-child(3):checked ~ .list-quantity-item-title:nth-child(4):before,
+.list-quantity-item:nth-child(5):checked ~ .list-quantity-item-title:nth-child(6):before,
+.list-quantity-item:nth-child(7):checked ~ .list-quantity-item-title:nth-child(8):before,
+.list-quantity-item:nth-child(9):checked ~ .list-quantity-item-title:nth-child(10):before {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+  background-size: cover;
+  background-position: center;
+}
+.list-quantity-item-title {
+  display: block;
+  width: 120px;
+  margin: 0 0 6px 0;
+  position: relative;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6f6e6e;
+}
+.list-quantity-item-title:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ebebeb;
+  position: absolute;
+  top: 1px;
+  left: -23px;
+}
+.list-choosesize-btn {
+  position: absolute;
+  bottom: 100%;
+  display: block;
+  bottom: 25%;
+  left: 34%;
+  width: 211px;
+  height: 47px;
+  padding: 1px 0 10px 0;
+  background-color: #fff;
+  border: 1px solid #f26376;
+  box-sizing: border-box;
+  color: #f26376;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  word-break: break-all;
+}
+.list-choosesize-btn:hover {
+  background-color: #f26376;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.list-choosesize-btn:active {
+  background-color: #fff;
+  border: 2px solid #f26376;
+  color: #f26376;
+}
+
+.list-choosesize-btn svg {
+  fill: #f26376;
+  margin: 8px 27px -6px 2px;  
+}
+
+.list-choosesize-btn:hover svg {
+  fill: #fff;
+}
+
+.list-choosesize-btn:active svg {
+  fill: #f26376;
+}
