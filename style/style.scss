@@ -1,9 +1,8 @@
-
 body {
   margin: 0;
   padding: 0;
   font-family: Lato;
- }
+}
 
 .container {
   margin: auto;
@@ -14,7 +13,7 @@ body {
 }
 /*====== header ======*/
 
-.page-header-wrp{
+.page-header-wrp {
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -38,7 +37,7 @@ body {
 .page-header svg {
   width: 100%;
   height: 100%;
-  fill: #e8e8e8; 
+  fill: #e8e8e8;
 }
 
 .page-header-wrp-btn {
@@ -99,11 +98,11 @@ body {
   border: 2px solid #fff;
 }
 
-.page-header-search-btn:focus ~ label> svg {
+.page-header-search-btn:focus ~ label > svg {
   fill: #f16d7f;
 }
 
-.page-header-search-btn:active ~ label> svg {
+.page-header-search-btn:active ~ label > svg {
   fill: red;
 }
 
@@ -117,12 +116,12 @@ body {
 
 .menu-btn:hover span,
 .menu-btn:hover span::before,
-.menu-btn:hover span::after{
+.menu-btn:hover span::after {
   background-color: #f16d7f;
 }
 .menu-btn:active span,
 .menu-btn:active span::before,
-.menu-btn:active span::after{
+.menu-btn:active span::after {
   background-color: red;
 }
 .menu-btn span {
@@ -156,7 +155,6 @@ body {
   border: 8px solid red;
 }
 
-
 .menu-list {
   display: none;
   width: 232px;
@@ -164,11 +162,10 @@ body {
   padding: 16px 33px;
   box-sizing: border-box;
   background-color: #fff;
-  list-style: none; 
+  list-style: none;
   position: absolute;
   top: 61px;
   right: 0;
-  
 }
 
 .menu-list-close-btn {
@@ -197,7 +194,7 @@ body {
 }
 
 .menu-list-close-btn::after {
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
 
 .menu-list-close-btn:hover::before,
@@ -206,7 +203,7 @@ body {
 }
 
 .menu-list-close-btn:active::before,
-.menu-list-close-btn:active::after{
+.menu-list-close-btn:active::after {
   background: #535353;
 }
 
@@ -218,20 +215,18 @@ body {
   text-transform: uppercase;
 }
 
-.menu-title>a,
-.menu-list-item>a,
-.menu-sublist-item>a {
+.menu-title > a,
+.menu-list-item > a,
+.menu-sublist-item > a {
   font-style: normal;
   font-size: 14px;
   line-height: 17px;
   font-weight: normal;
 }
 
-
 /*====== menu-list ======*/
-  
 
-.menu-list-item>a {
+.menu-list-item > a {
   display: block;
   margin: 0 0 11px 0;
   color: #f16d7f;
@@ -239,11 +234,11 @@ body {
   text-decoration: none;
 }
 
-.menu-list-item:hover>a {
+.menu-list-item:hover > a {
   color: #9889d7;
 }
 
-.menu-list-item:active>a {
+.menu-list-item:active > a {
   color: #9d2334;
 }
 
@@ -253,7 +248,7 @@ body {
   list-style: none;
 }
 
-.menu-sublist-item>a {
+.menu-sublist-item > a {
   display: block;
   width: 100%;
   height: 100%;
@@ -291,7 +286,7 @@ body {
   fill: red;
 }
 
-.cart-btn{
+.cart-btn {
   padding-left: 0;
   background-color: transparent;
   color: #fff;
@@ -305,7 +300,7 @@ body {
 }
 
 .cart-btn:hover svg {
-  fill: #f16d7f
+  fill: #f16d7f;
 }
 
 .cart-btn:active svg {
@@ -331,7 +326,7 @@ body {
 
 /*====== baner ======*/
 
-.banner{
+.banner {
   width: 100%;
   min-height: 764px;
   display: flex;
@@ -346,10 +341,10 @@ body {
   align-items: center;
   box-sizing: border-box;
   background-color: #f1e4e6;
-  background-image: url('../img/header-baner.png');
+  background-image: url("../img/header-baner.png");
   background-repeat: no-repeat;
   background-position: bottom left;
- }
+}
 
 .page-header-banner-wrp {
   width: 377px;
@@ -383,7 +378,7 @@ body {
   line-height: 38.4px;
 }
 
-.page-header-banner-pink{
+.page-header-banner-pink {
   color: #f16d7f;
 }
 
@@ -400,7 +395,6 @@ body {
 }
 
 .categories-item {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -413,24 +407,24 @@ body {
   background-repeat: no-repeat;
 }
 .categories-item:nth-child(1) {
-  background-image: url('../img/categories-women.jpg');
+  background-image: url("../img/categories-women.jpg");
 }
 .categories-item:nth-child(2) {
-  background-image: url('../img/categories-men.jpg');
+  background-image: url("../img/categories-men.jpg");
 }
 .categories-item:nth-child(3) {
-  background-image: url('../img/categories-kids.jpg');
+  background-image: url("../img/categories-kids.jpg");
 }
 .categories-item:last-child {
   width: 100%;
-  background-image: url('../img/categories-accesorise.jpg');
+  background-image: url("../img/categories-accesorise.jpg");
 }
 .categories-item:nth-child(4n-1),
 .categories-item:last-child {
   margin: 0 0 30px;
 }
-.categories-item-title, 
-.categories-item-subtitle{
+.categories-item-title,
+.categories-item-subtitle {
   display: block;
   width: 100%;
   text-transform: uppercase;
@@ -501,7 +495,7 @@ body {
   margin: 0 0 30px 0;
 }
 .products-item:hover .products-item-btn {
-  display: flex
+  display: flex;
 }
 .products-item:hover .products-item-btn:hover {
   background-color: #f16d7f;
@@ -618,14 +612,14 @@ body {
 }
 /*====== features ======*/
 
-.features{
+.features {
   margin: 95.5px auto 0 auto;
   width: 100%;
   min-height: 341px;
   display: flex;
   background-color: #222222;
 }
-.features-wrp{
+.features-wrp {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -674,9 +668,12 @@ body {
 
 /*====== subscribe ======*/
 
-.subscribe{
-  background-image: linear-gradient(rgba(244,244,244, 0.7), rgba(244,244,244, 0.7)), 
-                    url('../img/background-subscribe.jpg');
+.subscribe {
+  background-image: linear-gradient(
+      rgba(244, 244, 244, 0.7),
+      rgba(244, 244, 244, 0.7)
+    ),
+    url("../img/background-subscribe.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -695,7 +692,7 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
 }
-  
+
 .subscribe-info {
   display: flex;
   margin: 0 340px 0 0;
@@ -710,7 +707,7 @@ body {
   width: 96px;
   height: 96px;
   margin: 0 0 30px 0;
-  background-image: url('../img/face-subscribe.png');
+  background-image: url("../img/face-subscribe.png");
   background-size: 150%;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -734,7 +731,7 @@ body {
   width: 355px;
 }
 
-.subscribe-form-title, 
+.subscribe-form-title,
 .subscribe-form-subtitle {
   color: #222224;
   text-align: center;
@@ -771,7 +768,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
   border: none;
-  border-radius: 20px 0 0 20px ;
+  border-radius: 20px 0 0 20px;
   background-color: #e1e1e1;
   font-style: normal;
   font-weight: 400;
@@ -810,7 +807,7 @@ body {
 
 /*====== page-footer ======*/
 
-.page-footer{
+.page-footer {
   background-color: #222222;
   min-height: 79px;
 }
@@ -869,19 +866,19 @@ body {
 
 /*======= top-page ========*/
 
-.top-page{
+.top-page {
   display: flex;
   min-height: 148px;
   background-color: #f1e4e6;
 }
 
-.top-page-wrp{
+.top-page-wrp {
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
-.top-page-title{
+.top-page-title {
   text-transform: uppercase;
   color: #f16d7f;
   font-size: 24px;
@@ -894,27 +891,26 @@ body {
   display: flex;
   text-transform: uppercase;
 }
-  
-.breadcrumb-link{
+
+.breadcrumb-link {
   text-decoration: none;
   color: #636363;
 }
 
-.breadcrumb li{
+.breadcrumb li {
   list-style-type: none;
   text-decoration: none;
 }
 .breadcrumb li::before {
   margin: 0 5px 0 5px;
   content: "/";
-  
 }
-  
+
 .breadcrumb li:first-child::before {
   content: "";
 }
 
-.breadcrumb-page{
+.breadcrumb-page {
   font-weight: bold;
   color: #f16d7f;
 }
@@ -925,8 +921,8 @@ input:focus,
 button:focus {
   outline: none;
 }
-input:focus-visible, 
-button:focus-visible{
+input:focus-visible,
+button:focus-visible {
   outline: 2px solid #f16d7f;
 }
 
@@ -945,8 +941,8 @@ button:focus-visible{
   justify-content: space-between;
 }
 
-.filter { 
-  position: relative; 
+.filter {
+  position: relative;
   width: 360px;
   padding: 50px 16px 16px 16px;
   box-sizing: border-box;
@@ -1066,7 +1062,7 @@ button:focus-visible{
   color: #000;
 }
 
-.list-wrp{
+.list-wrp {
   margin: 0 385px 0 0;
   display: flex;
   padding: 50px 16px 16px 16px;
@@ -1074,8 +1070,6 @@ button:focus-visible{
 }
 
 /*========= LIST TRENDING ========*/
-
-
 
 .list-tranding {
   position: relative;
@@ -1090,20 +1084,20 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 16.8px;
-  color: #6F6E6E;
+  color: #6f6e6e;
   background-color: transparent;
   text-align: left;
   text-transform: uppercase;
   position: relative;
 }
 .list-tranding-btn-title svg {
-  fill: #6F6E6E;
+  fill: #6f6e6e;
   position: absolute;
   top: 40%;
   left: 60%;
 }
 .list-tranding-btn-title:hover {
-  color: #F16D7F;
+  color: #f16d7f;
 }
 .list-tranding-btn-title:hover svg {
   fill: currentColor;
@@ -1136,9 +1130,11 @@ button:focus-visible{
   display: none;
 }
 
-.list-tranding-item:nth-child(1):checked ~ .list-tranding-item-title:nth-child(2):before,
-.list-tranding-item:nth-child(3):checked ~ .list-tranding-item-title:nth-child(4):before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+.list-tranding-item:nth-child(1):checked
+  ~ .list-tranding-item-title:nth-child(2):before,
+.list-tranding-item:nth-child(3):checked
+  ~ .list-tranding-item-title:nth-child(4):before {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png");
   background-size: cover;
   background-position: center;
 }
@@ -1152,19 +1148,18 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  color: #6F6E6E;
+  color: #6f6e6e;
 }
 .list-tranding-item-title:before {
   content: "";
   display: block;
   width: 12px;
   height: 12px;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   position: absolute;
   top: 1px;
   left: -23px;
 }
-
 
 /*========= LIST SIZE ========*/
 
@@ -1184,20 +1179,20 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  color: #6F6E6E;
+  color: #6f6e6e;
   background-color: transparent;
   text-align: left;
   text-transform: uppercase;
   position: relative;
 }
 .list-size-btn-title svg {
-  fill: #6F6E6E;
+  fill: #6f6e6e;
   position: absolute;
   top: 40%;
   left: 60%;
 }
 .list-size-btn-title:hover {
-  color: #F16D7F;
+  color: #f16d7f;
 }
 .list-size-btn-title:hover svg {
   fill: currentColor;
@@ -1229,11 +1224,15 @@ button:focus-visible{
 .list-size-item {
   display: none;
 }
-.list-size-item:nth-child(1):checked ~ .list-size-item-title:nth-child(2):before,
-.list-size-item:nth-child(3):checked ~ .list-size-item-title:nth-child(4):before,
-.list-size-item:nth-child(5):checked ~ .list-size-item-title:nth-child(6):before,
-.list-size-item:nth-child(7):checked ~ .list-size-item-title:nth-child(8):before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+.list-size-item:nth-child(1):checked
+  ~ .list-size-item-title:nth-child(2):before,
+.list-size-item:nth-child(3):checked
+  ~ .list-size-item-title:nth-child(4):before,
+.list-size-item:nth-child(5):checked
+  ~ .list-size-item-title:nth-child(6):before,
+.list-size-item:nth-child(7):checked
+  ~ .list-size-item-title:nth-child(8):before {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png");
   background-size: cover;
   background-position: center;
 }
@@ -1246,14 +1245,14 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  color: #6F6E6E;
+  color: #6f6e6e;
 }
 .list-size-item-title:before {
   content: "";
   display: block;
   width: 12px;
   height: 12px;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   position: absolute;
   top: 1px;
   left: -23px;
@@ -1277,20 +1276,20 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  color: #6F6E6E;
+  color: #6f6e6e;
   background-color: transparent;
   text-align: left;
   text-transform: uppercase;
   position: relative;
 }
 .list-price-btn-title svg {
-  fill: #6F6E6E;
+  fill: #6f6e6e;
   position: absolute;
   top: 40%;
   left: 60%;
 }
 .list-price-btn-title:hover {
-  color: #F16D7F;
+  color: #f16d7f;
 }
 .list-price-btn-title:hover svg {
   fill: currentColor;
@@ -1318,17 +1317,21 @@ button:focus-visible{
   box-sizing: border-box;
   background-color: #fff;
   box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
-  
 }
 .list-price-item {
   display: none;
 }
-.list-price-item:nth-child(1):checked ~ .list-price-item-title:nth-child(2):before,
-.list-price-item:nth-child(3):checked ~ .list-price-item-title:nth-child(4):before,
-.list-price-item:nth-child(5):checked ~ .list-price-item-title:nth-child(6):before,
-.list-price-item:nth-child(7):checked ~ .list-price-item-title:nth-child(8):before,
-.list-price-item:nth-child(9):checked ~ .list-price-item-title:nth-child(10):before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+.list-price-item:nth-child(1):checked
+  ~ .list-price-item-title:nth-child(2):before,
+.list-price-item:nth-child(3):checked
+  ~ .list-price-item-title:nth-child(4):before,
+.list-price-item:nth-child(5):checked
+  ~ .list-price-item-title:nth-child(6):before,
+.list-price-item:nth-child(7):checked
+  ~ .list-price-item-title:nth-child(8):before,
+.list-price-item:nth-child(9):checked
+  ~ .list-price-item-title:nth-child(10):before {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png");
   background-size: cover;
   background-position: center;
 }
@@ -1355,7 +1358,7 @@ button:focus-visible{
   left: -23px;
 }
 
-.pagination{
+.pagination {
   margin: 48px auto 86px auto;
   max-width: 264px;
   display: flex;
@@ -1377,13 +1380,13 @@ button:focus-visible{
 
 .pagination a:hover:not(.active) {
   color: #f16d7f;
-}  
+}
 /*===================== PRODUCT===============*/
 
-.carousel-wrp{
+.carousel-wrp {
   display: flex;
   margin-top: 370px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   min-height: 777px;
   margin: 0 0 665px 0;
 }
@@ -1405,16 +1408,16 @@ button:focus-visible{
   fill: #fff;
 }
 
-.carousel{
+.carousel {
   position: relative;
   margin: 0 288px 0 251px;
-  background-image: url('../img/product-item.png');
-  background-color: #F7F7F7;
+  background-image: url("../img/product-item.png");
+  background-color: #f7f7f7;
   min-height: 777px;
   background-repeat: no-repeat;
 }
 
-.benefits{
+.benefits {
   display: block;
   position: absolute;
   top: 699px;
@@ -1423,10 +1426,10 @@ button:focus-visible{
   min-height: 601px;
   background-color: #fff;
   border: 1px solid #eaeaea;
-}  
+}
 
-.benefits-title{ 
-  margin: 65px 0 12px 0 ;  
+.benefits-title {
+  margin: 65px 0 12px 0;
   text-align: center;
   font-style: normal;
   font-weight: 300;
@@ -1436,14 +1439,14 @@ button:focus-visible{
   text-transform: uppercase;
 }
 
-.benefits-title-block{
+.benefits-title-block {
   margin: 0 auto;
   width: 63px;
   height: 3px;
   background-color: #ef5b70;
 }
 
-.benefits-subtitle{
+.benefits-subtitle {
   margin: 12px 0 48px 0;
   text-align: center;
   font-style: normal;
@@ -1454,7 +1457,7 @@ button:focus-visible{
   text-transform: uppercase;
 }
 
-.benefits-txt{
+.benefits-txt {
   margin: 0 auto 32px auto;
   max-width: 555px;
   text-align: center;
@@ -1465,7 +1468,7 @@ button:focus-visible{
   color: #5e5e5e;
 }
 
-.benefits-price{
+.benefits-price {
   text-align: center;
   font-style: normal;
   font-weight: 300;
@@ -1474,14 +1477,14 @@ button:focus-visible{
   color: #ef5b70;
 }
 
-.carousel-list-wrp{
+.carousel-list-wrp {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 65px 80px 0 113px;
   position: absolute;
   display: flex;
   justify-content: space-around;
-  left: 246px;  
+  left: 246px;
   bottom: 0px;
   width: 641px;
   height: 244px;
@@ -1502,20 +1505,20 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 16.8px;
-  color: #6F6E6E;
+  color: #6f6e6e;
   background-color: transparent;
   text-align: left;
   text-transform: uppercase;
   position: relative;
 }
 .list-color-btn-title svg {
-  fill: #6F6E6E;
+  fill: #6f6e6e;
   position: absolute;
   top: 40%;
   left: 54%;
 }
 .list-color-btn-title:hover {
-  color: #F16D7F;
+  color: #f16d7f;
 }
 .list-color-btn-title:hover svg {
   fill: currentColor;
@@ -1548,11 +1551,15 @@ button:focus-visible{
   display: none;
 }
 
-.list-color-item:nth-child(1):checked ~ .list-color-item-title:nth-child(2):before,
-.list-color-item:nth-child(3):checked ~ .list-color-item-title:nth-child(4):before, 
-.list-color-item:nth-child(5):checked ~ .list-color-item-title:nth-child(6):before,
-.list-color-item:nth-child(7):checked ~ .list-color-item-title:nth-child(8):before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+.list-color-item:nth-child(1):checked
+  ~ .list-color-item-title:nth-child(2):before,
+.list-color-item:nth-child(3):checked
+  ~ .list-color-item-title:nth-child(4):before,
+.list-color-item:nth-child(5):checked
+  ~ .list-color-item-title:nth-child(6):before,
+.list-color-item:nth-child(7):checked
+  ~ .list-color-item-title:nth-child(8):before {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png");
   background-size: cover;
   background-position: center;
 }
@@ -1566,21 +1573,21 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  color: #6F6E6E;
+  color: #6f6e6e;
 }
 .list-color-item-title:before {
   content: "";
   display: block;
   width: 12px;
   height: 12px;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   position: absolute;
   top: 1px;
   left: -23px;
 }
 
 .list-choosesize-btn-title svg {
-  fill: #6F6E6E;
+  fill: #6f6e6e;
   position: absolute;
   top: 40%;
   left: 65%;
@@ -1601,20 +1608,20 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  color: #6F6E6E;
+  color: #6f6e6e;
   background-color: transparent;
   text-align: left;
   text-transform: uppercase;
   position: relative;
 }
 .list-choosesize-btn-title svg {
-  fill: #6F6E6E;
+  fill: #6f6e6e;
   position: absolute;
   top: 40%;
   left: 68%;
 }
 .list-choosesize-btn-title:hover {
-  color: #F16D7F;
+  color: #f16d7f;
 }
 .list-choosesize-btn-title:hover svg {
   fill: currentColor;
@@ -1646,11 +1653,15 @@ button:focus-visible{
 .list-choosesize-item {
   display: none;
 }
-.list-choosesize-item:nth-child(1):checked ~ .list-choosesize-item-title:nth-child(2):before,
-.list-choosesize-item:nth-child(3):checked ~ .list-choosesize-item-title:nth-child(4):before,
-.list-choosesize-item:nth-child(5):checked ~ .list-choosesize-item-title:nth-child(6):before,
-.list-choosesize-item:nth-child(7):checked ~ .list-choosesize-item-title:nth-child(8):before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+.list-choosesize-item:nth-child(1):checked
+  ~ .list-choosesize-item-title:nth-child(2):before,
+.list-choosesize-item:nth-child(3):checked
+  ~ .list-choosesize-item-title:nth-child(4):before,
+.list-choosesize-item:nth-child(5):checked
+  ~ .list-choosesize-item-title:nth-child(6):before,
+.list-choosesize-item:nth-child(7):checked
+  ~ .list-choosesize-item-title:nth-child(8):before {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png");
   background-size: cover;
   background-position: center;
 }
@@ -1663,14 +1674,14 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  color: #6F6E6E;
+  color: #6f6e6e;
 }
 .list-choosesize-item-title:before {
   content: "";
   display: block;
   width: 12px;
   height: 12px;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   position: absolute;
   top: 1px;
   left: -23px;
@@ -1692,20 +1703,20 @@ button:focus-visible{
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  color: #6F6E6E;
+  color: #6f6e6e;
   background-color: transparent;
   text-align: left;
   text-transform: uppercase;
   position: relative;
 }
 .list-quantity-btn-title svg {
-  fill: #6F6E6E;
+  fill: #6f6e6e;
   position: absolute;
   top: 40%;
   left: 55%;
 }
 .list-quantity-btn-title:hover {
-  color: #F16D7F;
+  color: #f16d7f;
 }
 .list-quantity-btn-title:hover svg {
   fill: currentColor;
@@ -1733,17 +1744,21 @@ button:focus-visible{
   box-sizing: border-box;
   background-color: #fff;
   box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
-  
 }
 .list-quantity-item {
   display: none;
 }
-.list-quantity-item:nth-child(1):checked ~ .list-quantity-item-title:nth-child(2):before,
-.list-quantity-item:nth-child(3):checked ~ .list-quantity-item-title:nth-child(4):before,
-.list-quantity-item:nth-child(5):checked ~ .list-quantity-item-title:nth-child(6):before,
-.list-quantity-item:nth-child(7):checked ~ .list-quantity-item-title:nth-child(8):before,
-.list-quantity-item:nth-child(9):checked ~ .list-quantity-item-title:nth-child(10):before {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png');
+.list-quantity-item:nth-child(1):checked
+  ~ .list-quantity-item-title:nth-child(2):before,
+.list-quantity-item:nth-child(3):checked
+  ~ .list-quantity-item-title:nth-child(4):before,
+.list-quantity-item:nth-child(5):checked
+  ~ .list-quantity-item-title:nth-child(6):before,
+.list-quantity-item:nth-child(7):checked
+  ~ .list-quantity-item-title:nth-child(8):before,
+.list-quantity-item:nth-child(9):checked
+  ~ .list-quantity-item-title:nth-child(10):before {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Green_tick.svg/600px-Green_tick.svg.png");
   background-size: cover;
   background-position: center;
 }
@@ -1802,7 +1817,7 @@ button:focus-visible{
 
 .list-choosesize-btn svg {
   fill: #f26376;
-  margin: 8px 27px -6px 2px;  
+  margin: 8px 27px -6px 2px;
 }
 
 .list-choosesize-btn:hover svg {
@@ -1815,14 +1830,14 @@ button:focus-visible{
 
 /*================CART PAGE============*/
 
-.cart-wrp{
+.cart-wrp {
   display: flex;
 }
-.cart-item-wrp{
-    padding: 56px 0 128px 0;
+.cart-item-wrp {
+  padding: 56px 0 128px 0;
 }
 
-.cart-item{
+.cart-item {
   display: flex;
   margin: 40px 0;
   background-color: #fff;
@@ -1831,20 +1846,19 @@ button:focus-visible{
   box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.26);
 }
 
-
-.cart-item-info{
+.cart-item-info {
   position: relative;
   box-sizing: border-box;
   padding: 22px 150px 62px 32px;
   display: block;
   text-align: left;
 }
-.cart-item-photo{
+.cart-item-photo {
   height: 306px;
   width: 262px;
 }
 
-.cart-item-title{
+.cart-item-title {
   margin: 0 0 42px 0;
   display: block;
   text-transform: uppercase;
@@ -1853,7 +1867,7 @@ button:focus-visible{
   color: #222222;
 }
 
-.cart-item-subtitle{
+.cart-item-subtitle {
   margin: 0 0 6px 0;
   display: block;
   font-size: 22px;
@@ -1861,21 +1875,21 @@ button:focus-visible{
   color: #575757;
 }
 
-.cart-item-subtitle-price{
+.cart-item-subtitle-price {
   color: #f26376;
 }
 
-.cart-item-input{
+.cart-item-input {
   position: absolute;
   max-width: 37px;
   max-height: 25px;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #eaeaea;
   text-align: center;
   bottom: 64px;
   right: 192px;
 }
 
-.cart-item-btn{
+.cart-item-btn {
   margin: 32px 0 0 0;
   font-weight: 300;
   font-size: 14px;
@@ -1885,12 +1899,12 @@ button:focus-visible{
   text-transform: uppercase;
   height: 50px;
   width: 235px;
-  border: 1px solid #A4A4A4
+  border: 1px solid #a4a4a4;
 }
 
 .cart-item-btn:hover {
-  color: #F16D7F;
-  border: 1px solid #F16D7F;
+  color: #f16d7f;
+  border: 1px solid #f16d7f;
 }
 
 .cart-item-btn:active {
@@ -1898,17 +1912,16 @@ button:focus-visible{
   border: 1px solid #222222;
 }
 
-.continue{
+.continue {
   margin: 0 0 0 179px;
 }
 .shipping {
   display: block;
   padding: 95px 0 128px 128px;
   box-sizing: border-box;
-  
 }
 
-.shipping-title{
+.shipping-title {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 16px;
@@ -1916,7 +1929,7 @@ button:focus-visible{
   color: #222;
 }
 
-.shipping-input{
+.shipping-input {
   height: 45px;
   width: 360px;
   margin: 21px 0 0 0;
@@ -1924,7 +1937,7 @@ button:focus-visible{
   padding-left: 17px;
 }
 
-.shipping-button{
+.shipping-button {
   margin: 24px 0 0 0;
   font-weight: 300;
   font-size: 11px;
@@ -1934,29 +1947,28 @@ button:focus-visible{
   text-transform: uppercase;
   height: 35px;
   width: 100px;
-  border: 1px solid #A4A4A4
+  border: 1px solid #a4a4a4;
 }
 
 .shipping-button:hover {
-  color: #F16D7F;
-  border: 1px solid #F16D7F;
+  color: #f16d7f;
+  border: 1px solid #f16d7f;
 }
 
 .shipping-button:active {
   color: #222;
-  border: 1px solid #222
+  border: 1px solid #222;
 }
 
-.shipping-checkout{
+.shipping-checkout {
   display: block;
   width: 360px;
   margin: 57px 0 0 0;
   height: 214px;
   background-color: #f5f3f3;
-  
 }
 
-.shipping-checkout-total{
+.shipping-checkout-total {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -1964,10 +1976,10 @@ button:focus-visible{
   margin: auto;
   width: 275px;
   height: 50%;
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid #e2e2e2;
 }
 
-.shipping-checkout-total-title{
+.shipping-checkout-total-title {
   text-transform: uppercase;
   margin: 39px 0 12px 0;
   font-size: 11px;
@@ -1975,15 +1987,15 @@ button:focus-visible{
   color: #4a4a4a;
 }
 
-.shipping-checkout-total-subtitle{
+.shipping-checkout-total-subtitle {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
-  color: #222
+  color: #222;
 }
 
-.shipping-checkout-btn{
+.shipping-checkout-btn {
   width: 273px;
   height: 50px;
   background-color: #f16d7f;
@@ -1997,9 +2009,9 @@ button:focus-visible{
 }
 
 .shipping-checkout-btn:hover {
-  color: #F16D7F;
+  color: #f16d7f;
   background-color: #fff;
-  border: 1px solid #F16D7F;
+  border: 1px solid #f16d7f;
 }
 
 .shipping-checkout-btn:active {
@@ -2009,13 +2021,12 @@ button:focus-visible{
 
 /*============ REGISTRATION PAGE =============*/
 
-
-.reg-wrp{
+.reg-wrp {
   display: flex;
   box-sizing: border-box;
   padding: 64px 0 96px 0;
 }
-.reg-form{
+.reg-form {
   flex-wrap: wrap;
   margin: 0 128px 0 0;
   display: block;
@@ -2023,15 +2034,15 @@ button:focus-visible{
   width: 100%;
 }
 
-.reg-form-title{
-  display:inline-block;
+.reg-form-title {
+  display: inline-block;
   margin: 0 130px 0 0;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #222222;
 }
-.reg-form-input{
+.reg-form-input {
   box-sizing: border-box;
   max-width: 360px;
   width: 100%;
@@ -2041,35 +2052,31 @@ button:focus-visible{
   border: 1px solid #a4a4a4;
 }
 
-.reg-form-gender-male{
+.reg-form-gender-male {
   font-weight: 300;
   font-size: 13px;
   line-height: 13px;
   color: #000000;
 }
 
-.reg-form-gender-female{
+.reg-form-gender-female {
   font-weight: 300;
   font-size: 13px;
   line-height: 13px;
   color: #000000;
 }
-
-
 
 .reg-form-radio-wrp {
   display: inline-flex;
   margin: 34px 0 34px 0;
 }
 
-
-
-.reg-form-radio{
+.reg-form-radio {
   position: relative;
-  margin: 0 20px 0 0 ;
+  margin: 0 20px 0 0;
 }
 
-.reg-form-radio-male{
+.reg-form-radio-male {
   display: none;
 }
 
@@ -2095,10 +2102,10 @@ button:focus-visible{
   left: 3px;
   content: " ";
   display: block;
-  background: #F16D7F;
+  background: #f16d7f;
 }
 
-.reg-form-radio-female{
+.reg-form-radio-female {
   display: none;
 }
 
@@ -2124,20 +2131,18 @@ button:focus-visible{
   left: 3px;
   content: " ";
   display: block;
-  background: #F16D7F;
+  background: #f16d7f;
 }
 
 .reg-form-text {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  color: #B1B1B1;
+  color: #b1b1b1;
   margin: 15px 0 39px 0;
 }
 
-
-
-.reg-form-button{
+.reg-form-button {
   width: 167px;
   height: 50px;
   background-color: #f16d7f;
@@ -2150,9 +2155,9 @@ button:focus-visible{
 }
 
 .reg-form-button:hover {
-  color: #F16D7F;
+  color: #f16d7f;
   background-color: #fff;
-  border: 1px solid #F16D7F;
+  border: 1px solid #f16d7f;
 }
 
 .reg-form-button:active {
@@ -2160,34 +2165,28 @@ button:focus-visible{
   border: 1px solid #222;
 }
 
-
-.reg-loyalty{
+.reg-loyalty {
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   color: #000;
 }
 
-.reg-loyalty-title{
-  
+.reg-loyalty-title {
   text-transform: uppercase;
   margin: 64px 0 24px 0;
 }
 
-.reg-loyalti-ul{
+.reg-loyalti-ul {
   list-style-type: none;
   margin: 22px 0 0 0;
-  padding: 0;  
+  padding: 0;
 }
 
-.reg-loyalti-li{
+.reg-loyalti-li {
   margin: 0 0 16px 0;
   padding-left: 42px;
   background-size: 20px 17px;
   background-repeat: no-repeat;
   background-image: url(../img/check.svg);
 }
-
-
-
-
