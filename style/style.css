@@ -186,9 +186,10 @@ body {
 }
 
 .menu-list {
+  z-index: 99;
   display: none;
   width: 232px;
-  min-height: 764px;
+  max-height: 764px;
   padding: 16px 33px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -207,7 +208,7 @@ body {
   padding: 0;
   position: relative;
   top: 0;
-  left: 170px;
+  right: -160px;
 }
 
 .menu-list-close-btn::before,
@@ -220,7 +221,7 @@ body {
   border-radius: 10px;
   position: absolute;
   top: 5px;
-  left: -3px;
+  left: 1px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
@@ -1130,7 +1131,8 @@ button:focus-visible {
 
 .filter-wrp {
   margin: auto;
-  width: 1140px;
+  max-width: 1140px;
+  width: 100%;
   min-height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1284,7 +1286,6 @@ button:focus-visible {
 }
 
 .list-wrp {
-  margin: 0 385px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1579,7 +1580,7 @@ button:focus-visible {
 .list-price-wrp {
   position: absolute;
   z-index: 100;
-  min-width: 160px;
+  width: 90px;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1615,7 +1616,7 @@ button:focus-visible {
 
 .list-price-item-title {
   display: block;
-  width: 120px;
+  width: 54px;
   margin: 0 0 6px 0;
   position: relative;
   text-transform: uppercase;
@@ -2567,6 +2568,7 @@ button:focus-visible {
 }
 
 @media (max-width: 768px) {
+  /*==========index=========*/
   .page-header {
     max-width: 768px;
     padding: 0 32px;
@@ -2660,6 +2662,35 @@ button:focus-visible {
   }
   .page-footer-wrp {
     padding: 0 20px;
+  }
+  /*==========catalog========*/
+  .top-page {
+    padding: 16px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .filter-wrp {
+    min-height: 80px;
+  }
+  .filter {
+    padding: 0;
+    margin: auto 0 auto 16px;
+  }
+  .filter-btn {
+    margin: 0;
+  }
+  .list-wrp {
+    padding: 0;
+    margin: auto 10px;
+  }
+  .list-price-btn-title {
+    width: 113%;
+  }
+  .products-item:nth-child(9n) {
+    display: none;
+  }
+  .pagination {
+    margin: 40px auto 63px auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
